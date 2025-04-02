@@ -1,0 +1,9 @@
+#example
+server:
+  port: 9000
+  pow:
+    difficulty: 3
+    ttl: 60        # ttl challenge  seconds
+    max_attempts: 3
+client:
+  server_addr: "127.0.0.1:9000"
